@@ -1371,26 +1371,6 @@ When sharing or running this project on another computer:
 
 ---
 
-# 37. License / Project Status
-
-This project is currently a research / development project for building a visual speech recognition dataset.
-
-Add your chosen software license here before public distribution, for example:
-
-```text
-License: [Add project license]
-```
-
-If this repository is later made public, also consider documenting:
-
-- Dataset license
-- Participant consent procedure
-- Data privacy policy
-- Data redistribution rules
-- Model license
-- Citation information
-
----
 
 ## Project Goal
 
