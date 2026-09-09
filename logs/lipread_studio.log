@@ -1,0 +1,18 @@
+2026-09-06 23:35:22,818 | INFO | MainThread | ================================================================================
+2026-09-06 23:35:22,821 | INFO | MainThread | Starting LipRead Studio v5.0
+2026-09-06 23:35:22,876 | INFO | MainThread | Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on Windows-11-10.0.26200-SP0
+2026-09-06 23:35:22,876 | INFO | MainThread | ================================================================================
+2026-09-06 23:35:25,888 | INFO | MainThread | MediaPipe Tasks FaceLandmarker successfully initialized.
+2026-09-06 23:59:26,030 | ERROR | LipReadSessionWorker | Session worker failure
+Traceback (most recent call last):
+  File "c:\CODE\lipread_studio\lipread_app.py", line 1045, in _worker
+    self._record_session_loop()
+  File "c:\CODE\lipread_studio\lipread_app.py", line 1066, in _record_session_loop
+    word = self.word_list[i]
+           ~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2026-09-09 15:40:54,161 | INFO | MainThread | ================================================================================
+2026-09-09 15:40:54,162 | INFO | MainThread | Starting LipRead Studio v5.0
+2026-09-09 15:40:54,210 | INFO | MainThread | Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on Windows-11-10.0.26200-SP0
+2026-09-09 15:40:54,210 | INFO | MainThread | ================================================================================
+2026-09-09 15:40:55,337 | INFO | MainThread | MediaPipe Tasks FaceLandmarker successfully initialized.

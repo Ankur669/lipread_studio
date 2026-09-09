@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QC Report — Speaker S003</title>
+    <style>
+        :root {
+            --bg: #070B14;
+            --panel: #0E1625;
+            --border: #233450;
+            --text: #F4F8FF;
+            --muted: #71839A;
+            --accent: #55F6D2;
+            --success: #34D399;
+            --warning: #FBBF24;
+            --danger: #F87171;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            color: var(--accent);
+            margin: 0 0 6px 0;
+            font-size: 1.8rem;
+        }
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+        .kpi-card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+        }
+        .kpi-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--muted);
+            margin-bottom: 6px;
+            font-weight: 700;
+        }
+        .kpi-val {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px 14px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            background: #111A28;
+            color: var(--muted);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        tr:hover {
+            background: rgba(85, 246, 210, 0.03);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: var(--muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LIPREAD STUDIO • QUALITY CONTROL AUDIT</h1>
+            <div style="color:var(--muted); font-size:0.9rem;">
+                Speaker ID: <strong style="color:var(--text);">S003</strong> &nbsp;•&nbsp; Generated: 2026-09-07 00:00:02
+            </div>
+        </header>
+
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-title">Pass Rate</div>
+                <div class="kpi-val" style="color:var(--success);">66.7%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Good / Review / Failed</div>
+                <div class="kpi-val"><span style="color:var(--success);">2</span> / <span style="color:var(--warning);">0</span> / <span style="color:var(--danger);">1</span></div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Avg Lip Detection</div>
+                <div class="kpi-val">80.3%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Avg Quality Score</div>
+                <div class="kpi-val">80.3%</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Word</th>
+                    <th>Lip %</th>
+                    <th>Face %</th>
+                    <th>Quality</th>
+                    <th>Status</th>
+                    <th>Emotion</th>
+                    <th>Attempt</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr>
+                <td style="font-weight:600;">1</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">ankur</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">2</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">ansh</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">3</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">kalyan</td>
+                <td>50.0%</td>
+                <td>50.0%</td>
+                <td>50.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            </tbody>
+        </table>
+
+        <div class="footer">
+            LipRead Studio AI Dataset Collection Pipeline • Enterprise Research Suite
+        </div>
+    </div>
+</body>
+</html>

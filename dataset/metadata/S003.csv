@@ -1,0 +1,4 @@
+speaker_id,word_id,word,video_file,audio_file,lip_directory,video_frames,face_detected_frames,lip_detected_frames,face_detection_rate,lip_detection_rate,quality_status,quality_score,emotion_detected,recording_attempt,video_fps,duration_sec
+S003,1,ankur,videos\S003\001_ankur.mp4,audio\S003\001_ankur.wav,lips\S003\001_ankur,11,10,10,0.909,0.909,GOOD,0.909,Focused / Serious,1,30.0,1.08
+S003,2,ansh,videos\S003\002_ansh.mp4,audio\S003\002_ansh.wav,lips\S003\002_ansh,11,11,11,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,1.08
+S003,3,kalyan,videos\S003\003_kalyan.mp4,audio\S003\003_kalyan.wav,lips\S003\003_kalyan,10,5,5,0.5,0.5,FAILED,0.5,Focused / Serious,1,30.0,1.08

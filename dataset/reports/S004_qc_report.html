@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QC Report — Speaker S004</title>
+    <style>
+        :root {
+            --bg: #070B14;
+            --panel: #0E1625;
+            --border: #233450;
+            --text: #F4F8FF;
+            --muted: #71839A;
+            --accent: #55F6D2;
+            --success: #34D399;
+            --warning: #FBBF24;
+            --danger: #F87171;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            color: var(--accent);
+            margin: 0 0 6px 0;
+            font-size: 1.8rem;
+        }
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+        .kpi-card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+        }
+        .kpi-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--muted);
+            margin-bottom: 6px;
+            font-weight: 700;
+        }
+        .kpi-val {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px 14px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            background: #111A28;
+            color: var(--muted);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        tr:hover {
+            background: rgba(85, 246, 210, 0.03);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: var(--muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LIPREAD STUDIO • QUALITY CONTROL AUDIT</h1>
+            <div style="color:var(--muted); font-size:0.9rem;">
+                Speaker ID: <strong style="color:var(--text);">S004</strong> &nbsp;•&nbsp; Generated: 2026-09-07 00:08:38
+            </div>
+        </header>
+
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-title">Pass Rate</div>
+                <div class="kpi-val" style="color:var(--success);">72.0%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Good / Review / Failed</div>
+                <div class="kpi-val"><span style="color:var(--success);">72</span> / <span style="color:var(--warning);">13</span> / <span style="color:var(--danger);">15</span></div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Avg Lip Detection</div>
+                <div class="kpi-val">88.2%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Avg Quality Score</div>
+                <div class="kpi-val">88.2%</div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Word</th>
+                    <th>Lip %</th>
+                    <th>Face %</th>
+                    <th>Quality</th>
+                    <th>Status</th>
+                    <th>Emotion</th>
+                    <th>Attempt</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr>
+                <td style="font-weight:600;">1</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Analyse</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">2</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Acquire</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">3</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Adult</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">4</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">At least</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">5</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Average</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.07s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">6</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Area</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">7</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Exam</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">8</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Engineer</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">9</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">East</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">10</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Earn</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">11</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Entire</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">12</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Equation</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">13</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Plan</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">14</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Pharmacy</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">15</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Perimeter</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">16</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Pain</td>
+                <td>70.0%</td>
+                <td>70.0%</td>
+                <td>70.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">17</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Please</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">18</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Physics</td>
+                <td>63.6%</td>
+                <td>63.6%</td>
+                <td>63.6%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">19</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Bus</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">20</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Bill</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">21</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Bike</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">22</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Bicycle</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">23</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Brand</td>
+                <td>72.7%</td>
+                <td>72.7%</td>
+                <td>74.7%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">24</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Biased</td>
+                <td>18.2%</td>
+                <td>18.2%</td>
+                <td>18.2%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">25</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Bureaucracy</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">26</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Fan</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">27</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Friend</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">28</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Full</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.07s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">29</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Function</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">30</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Quadratic</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">31</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Geography</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">32</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Group</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.07s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">33</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Green</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">34</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Room</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">35</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Radius</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">36</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Rural</td>
+                <td>60.0%</td>
+                <td>60.0%</td>
+                <td>60.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">37</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Computer</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">38</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Car</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">39</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Chemistry</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">40</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Class</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">41</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Circumference</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">42</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Crore</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">43</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Control</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">44</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Hall</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">45</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Humidity</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">46</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">India</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.07s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">47</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Jail</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">48</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Speed</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">49</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Silence</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">50</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Store</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">51</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Student</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.07s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">52</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Suicide</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">53</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">System</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">54</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Society</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">55</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Knowledge</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">56</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Kilo</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">57</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Luck</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td>92.9%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">58</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Lakh</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">59</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Length</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">60</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Dance</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td>90.9%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">61</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Danger</td>
+                <td>54.5%</td>
+                <td>54.5%</td>
+                <td>54.5%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">62</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Drum</td>
+                <td>54.5%</td>
+                <td>54.5%</td>
+                <td>54.5%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">63</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Diameter</td>
+                <td>18.2%</td>
+                <td>18.2%</td>
+                <td>18.2%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.11s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">64</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Design</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">65</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Dining</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">66</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Map</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">67</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Marks</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">68</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Machine</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">69</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Monday</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">70</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Tuesday</td>
+                <td>70.0%</td>
+                <td>70.0%</td>
+                <td>70.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">71</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Wednesday</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">72</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Thursday</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">73</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Friday</td>
+                <td>72.7%</td>
+                <td>72.7%</td>
+                <td>72.7%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">74</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Saturday</td>
+                <td>27.3%</td>
+                <td>27.3%</td>
+                <td>27.3%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">75</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Sunday</td>
+                <td>45.5%</td>
+                <td>45.5%</td>
+                <td>45.5%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">76</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Table</td>
+                <td>70.0%</td>
+                <td>70.0%</td>
+                <td>70.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.07s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">77</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Turn</td>
+                <td>54.5%</td>
+                <td>54.5%</td>
+                <td>54.5%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">78</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Variety</td>
+                <td>36.4%</td>
+                <td>36.4%</td>
+                <td>36.4%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">79</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Unique</td>
+                <td>27.3%</td>
+                <td>27.3%</td>
+                <td>27.3%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">80</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Under</td>
+                <td>63.6%</td>
+                <td>63.6%</td>
+                <td>63.6%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">81</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Estimate</td>
+                <td>27.3%</td>
+                <td>27.3%</td>
+                <td>27.3%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">82</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Use</td>
+                <td>36.4%</td>
+                <td>36.4%</td>
+                <td>36.4%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">83</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Salary</td>
+                <td>63.6%</td>
+                <td>63.6%</td>
+                <td>63.6%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#F87171; background:rgba(248, 113, 113, 0.15);">FAILED</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.09s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">84</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Age</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td>81.8%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#FBBF24; background:rgba(251, 191, 36, 0.15);">REVIEW</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">85</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">January</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">86</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">February</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">87</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">March</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">88</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">April</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">89</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">May</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">90</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">June</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">91</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">July</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">92</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">August</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.07s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">93</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">September</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">94</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">October</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">95</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">November</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.07s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">96</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">December</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">97</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Semester</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">98</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Today</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">99</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Tomorrow</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            <tr>
+                <td style="font-weight:600;">100</td>
+                <td style="font-size:1.05rem; font-weight:700; color:#F4F8FF;">Yesterday</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td>100.0%</td>
+                <td><span style="display:inline-block; padding:3px 8px; border-radius:4px; font-weight:700; color:#34D399; background:rgba(52, 211, 153, 0.15);">GOOD</span></td>
+                <td>Focused / Serious</td>
+                <td>Attempt 1</td>
+                <td>1.08s</td>
+            </tr>
+            
+            </tbody>
+        </table>
+
+        <div class="footer">
+            LipRead Studio AI Dataset Collection Pipeline • Enterprise Research Suite
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+speaker_id,word_id,word,video_file,audio_file,lip_directory,video_frames,face_detected_frames,lip_detected_frames,face_detection_rate,lip_detection_rate,quality_status,quality_score,emotion_detected,recording_attempt,video_fps,duration_sec
+S001,1,Analyse,videos\S001\001_Analyse.mp4,audio\S001\001_Analyse.wav,lips\S001\001_Analyse,30,30,30,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,2,Acquire,videos\S001\002_Acquire.mp4,audio\S001\002_Acquire.wav,lips\S001\002_Acquire,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,3,Adult,videos\S001\003_Adult.mp4,audio\S001\003_Adult.wav,lips\S001\003_Adult,31,30,30,0.968,0.968,GOOD,0.968,Focused / Serious,1,30.0,3.1
+S001,4,At least,videos\S001\004_Atleast.mp4,audio\S001\004_Atleast.wav,lips\S001\004_Atleast,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,5,Average,videos\S001\005_Average.mp4,audio\S001\005_Average.wav,lips\S001\005_Average,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,6,Area,videos\S001\006_Area.mp4,audio\S001\006_Area.wav,lips\S001\006_Area,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,7,Exam,videos\S001\007_Exam.mp4,audio\S001\007_Exam.wav,lips\S001\007_Exam,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,8,Engineer,videos\S001\008_Engineer.mp4,audio\S001\008_Engineer.wav,lips\S001\008_Engineer,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,9,East,videos\S001\009_East.mp4,audio\S001\009_East.wav,lips\S001\009_East,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.08
+S001,10,Earn,videos\S001\010_Earn.mp4,audio\S001\010_Earn.wav,lips\S001\010_Earn,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,11,Entire,videos\S001\011_Entire.mp4,audio\S001\011_Entire.wav,lips\S001\011_Entire,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,12,Equation,videos\S001\012_Equation.mp4,audio\S001\012_Equation.wav,lips\S001\012_Equation,30,30,30,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,13,Plan,videos\S001\013_Plan.mp4,audio\S001\013_Plan.wav,lips\S001\013_Plan,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.08
+S001,14,Pharmacy,videos\S001\014_Pharmacy.mp4,audio\S001\014_Pharmacy.wav,lips\S001\014_Pharmacy,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,15,Perimeter,videos\S001\015_Perimeter.mp4,audio\S001\015_Perimeter.wav,lips\S001\015_Perimeter,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,16,Pain,videos\S001\016_Pain.mp4,audio\S001\016_Pain.wav,lips\S001\016_Pain,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,17,Please,videos\S001\017_Please.mp4,audio\S001\017_Please.wav,lips\S001\017_Please,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,18,Physics,videos\S001\018_Physics.mp4,audio\S001\018_Physics.wav,lips\S001\018_Physics,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,19,Bus,videos\S001\019_Bus.mp4,audio\S001\019_Bus.wav,lips\S001\019_Bus,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,20,Bill,videos\S001\020_Bill.mp4,audio\S001\020_Bill.wav,lips\S001\020_Bill,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,21,Bike,videos\S001\021_Bike.mp4,audio\S001\021_Bike.wav,lips\S001\021_Bike,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.11
+S001,22,Bicycle,videos\S001\022_Bicycle.mp4,audio\S001\022_Bicycle.wav,lips\S001\022_Bicycle,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,23,Brand,videos\S001\023_Brand.mp4,audio\S001\023_Brand.wav,lips\S001\023_Brand,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,24,Biased,videos\S001\024_Biased.mp4,audio\S001\024_Biased.wav,lips\S001\024_Biased,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,25,Bureaucracy,videos\S001\025_Bureaucracy.mp4,audio\S001\025_Bureaucracy.wav,lips\S001\025_Bureaucracy,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,26,Fan,videos\S001\026_Fan.mp4,audio\S001\026_Fan.wav,lips\S001\026_Fan,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.12
+S001,27,Friend,videos\S001\027_Friend.mp4,audio\S001\027_Friend.wav,lips\S001\027_Friend,29,29,29,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.11
+S001,28,Full,videos\S001\028_Full.mp4,audio\S001\028_Full.wav,lips\S001\028_Full,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,29,Function,videos\S001\029_Function.mp4,audio\S001\029_Function.wav,lips\S001\029_Function,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.11
+S001,30,Quadratic,videos\S001\030_Quadratic.mp4,audio\S001\030_Quadratic.wav,lips\S001\030_Quadratic,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.11
+S001,31,Geography,videos\S001\031_Geography.mp4,audio\S001\031_Geography.wav,lips\S001\031_Geography,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,32,Group,videos\S001\032_Group.mp4,audio\S001\032_Group.wav,lips\S001\032_Group,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,33,Green,videos\S001\033_Green.mp4,audio\S001\033_Green.wav,lips\S001\033_Green,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,34,Room,videos\S001\034_Room.mp4,audio\S001\034_Room.wav,lips\S001\034_Room,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.08
+S001,35,Radius,videos\S001\035_Radius.mp4,audio\S001\035_Radius.wav,lips\S001\035_Radius,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,36,Rural,videos\S001\036_Rural.mp4,audio\S001\036_Rural.wav,lips\S001\036_Rural,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,37,Computer,videos\S001\037_Computer.mp4,audio\S001\037_Computer.wav,lips\S001\037_Computer,31,31,31,1.0,1.0,GOOD,1.0,Neutral,1,30.0,3.09
+S001,38,Car,videos\S001\038_Car.mp4,audio\S001\038_Car.wav,lips\S001\038_Car,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,39,Chemistry,videos\S001\039_Chemistry.mp4,audio\S001\039_Chemistry.wav,lips\S001\039_Chemistry,30,30,30,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,40,Class,videos\S001\040_Class.mp4,audio\S001\040_Class.wav,lips\S001\040_Class,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,41,Circumference,videos\S001\041_Circumference.mp4,audio\S001\041_Circumference.wav,lips\S001\041_Circumference,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,42,Crore,videos\S001\042_Crore.mp4,audio\S001\042_Crore.wav,lips\S001\042_Crore,31,31,31,1.0,1.0,GOOD,1.0,Neutral,1,30.0,3.09
+S001,43,Control,videos\S001\043_Control.mp4,audio\S001\043_Control.wav,lips\S001\043_Control,31,27,27,0.871,0.871,GOOD,0.891,Neutral,1,30.0,3.09
+S001,44,Hall,videos\S001\044_Hall.mp4,audio\S001\044_Hall.wav,lips\S001\044_Hall,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,45,Humidity,videos\S001\045_Humidity.mp4,audio\S001\045_Humidity.wav,lips\S001\045_Humidity,31,30,30,0.968,0.968,GOOD,0.968,Focused / Serious,1,30.0,3.08
+S001,46,India,videos\S001\046_India.mp4,audio\S001\046_India.wav,lips\S001\046_India,31,22,22,0.71,0.71,REVIEW,0.71,Neutral,1,30.0,3.11
+S001,47,Jail,videos\S001\047_Jail.mp4,audio\S001\047_Jail.wav,lips\S001\047_Jail,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.11
+S001,48,Speed,videos\S001\048_Speed.mp4,audio\S001\048_Speed.wav,lips\S001\048_Speed,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.11
+S001,49,Silence,videos\S001\049_Silence.mp4,audio\S001\049_Silence.wav,lips\S001\049_Silence,31,31,31,1.0,1.0,GOOD,1.0,Neutral,1,30.0,3.1
+S001,50,Store,videos\S001\050_Store.mp4,audio\S001\050_Store.wav,lips\S001\050_Store,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.11
+S001,51,Student,videos\S001\051_Student.mp4,audio\S001\051_Student.wav,lips\S001\051_Student,31,22,22,0.71,0.71,REVIEW,0.73,Focused / Serious,1,30.0,3.11
+S001,52,Suicide,videos\S001\052_Suicide.mp4,audio\S001\052_Suicide.wav,lips\S001\052_Suicide,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,53,System,videos\S001\053_System.mp4,audio\S001\053_System.wav,lips\S001\053_System,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,54,Society,videos\S001\054_Society.mp4,audio\S001\054_Society.wav,lips\S001\054_Society,31,0,0,0.0,0.0,FAILED,0.02,Focused / Serious,1,30.0,3.09
+S001,55,Knowledge,videos\S001\055_Knowledge.mp4,audio\S001\055_Knowledge.wav,lips\S001\055_Knowledge,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,56,Kilo,videos\S001\056_Kilo.mp4,audio\S001\056_Kilo.wav,lips\S001\056_Kilo,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,57,Luck,videos\S001\057_Luck.mp4,audio\S001\057_Luck.wav,lips\S001\057_Luck,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,58,Lakh,videos\S001\058_Lakh.mp4,audio\S001\058_Lakh.wav,lips\S001\058_Lakh,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,59,Length,videos\S001\059_Length.mp4,audio\S001\059_Length.wav,lips\S001\059_Length,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,60,Dance,videos\S001\060_Dance.mp4,audio\S001\060_Dance.wav,lips\S001\060_Dance,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,61,Danger,videos\S001\061_Danger.mp4,audio\S001\061_Danger.wav,lips\S001\061_Danger,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,62,Drum,videos\S001\062_Drum.mp4,audio\S001\062_Drum.wav,lips\S001\062_Drum,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,63,Diameter,videos\S001\063_Diameter.mp4,audio\S001\063_Diameter.wav,lips\S001\063_Diameter,31,0,0,0.0,0.0,FAILED,0.02,Focused / Serious,1,30.0,3.09
+S001,64,Design,videos\S001\064_Design.mp4,audio\S001\064_Design.wav,lips\S001\064_Design,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.11
+S001,65,Dining,videos\S001\065_Dining.mp4,audio\S001\065_Dining.wav,lips\S001\065_Dining,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.11
+S001,66,Map,videos\S001\066_Map.mp4,audio\S001\066_Map.wav,lips\S001\066_Map,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.11
+S001,67,Marks,videos\S001\067_Marks.mp4,audio\S001\067_Marks.wav,lips\S001\067_Marks,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,68,Machine,videos\S001\068_Machine.mp4,audio\S001\068_Machine.wav,lips\S001\068_Machine,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,69,Monday,videos\S001\069_Monday.mp4,audio\S001\069_Monday.wav,lips\S001\069_Monday,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,70,Tuesday,videos\S001\070_Tuesday.mp4,audio\S001\070_Tuesday.wav,lips\S001\070_Tuesday,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,71,Wednesday,videos\S001\071_Wednesday.mp4,audio\S001\071_Wednesday.wav,lips\S001\071_Wednesday,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,72,Thursday,videos\S001\072_Thursday.mp4,audio\S001\072_Thursday.wav,lips\S001\072_Thursday,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,73,Friday,videos\S001\073_Friday.mp4,audio\S001\073_Friday.wav,lips\S001\073_Friday,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,74,Saturday,videos\S001\074_Saturday.mp4,audio\S001\074_Saturday.wav,lips\S001\074_Saturday,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,75,Sunday,videos\S001\075_Sunday.mp4,audio\S001\075_Sunday.wav,lips\S001\075_Sunday,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.13
+S001,76,Table,videos\S001\076_Table.mp4,audio\S001\076_Table.wav,lips\S001\076_Table,30,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.1
+S001,77,Turn,videos\S001\077_Turn.mp4,audio\S001\077_Turn.wav,lips\S001\077_Turn,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.1
+S001,78,Variety,videos\S001\078_Variety.mp4,audio\S001\078_Variety.wav,lips\S001\078_Variety,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.1
+S001,79,Unique,videos\S001\079_Unique.mp4,audio\S001\079_Unique.wav,lips\S001\079_Unique,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.11
+S001,80,Under,videos\S001\080_Under.mp4,audio\S001\080_Under.wav,lips\S001\080_Under,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,81,Estimate,videos\S001\081_Estimate.mp4,audio\S001\081_Estimate.wav,lips\S001\081_Estimate,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,82,Use,videos\S001\082_Use.mp4,audio\S001\082_Use.wav,lips\S001\082_Use,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,83,Salary,videos\S001\083_Salary.mp4,audio\S001\083_Salary.wav,lips\S001\083_Salary,31,0,0,0.0,0.0,FAILED,0.02,Focused / Serious,1,30.0,3.09
+S001,84,Age,videos\S001\084_Age.mp4,audio\S001\084_Age.wav,lips\S001\084_Age,31,0,0,0.0,0.0,FAILED,0.02,Focused / Serious,1,30.0,3.08
+S001,85,January,videos\S001\085_January.mp4,audio\S001\085_January.wav,lips\S001\085_January,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,86,February,videos\S001\086_February.mp4,audio\S001\086_February.wav,lips\S001\086_February,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,87,March,videos\S001\087_March.mp4,audio\S001\087_March.wav,lips\S001\087_March,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.08
+S001,88,April,videos\S001\088_April.mp4,audio\S001\088_April.wav,lips\S001\088_April,31,0,0,0.0,0.0,FAILED,0.0,Focused / Serious,1,30.0,3.09
+S001,89,May,videos\S001\089_May.mp4,audio\S001\089_May.wav,lips\S001\089_May,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,90,June,videos\S001\090_June.mp4,audio\S001\090_June.wav,lips\S001\090_June,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,91,July,videos\S001\091_July.mp4,audio\S001\091_July.wav,lips\S001\091_July,31,31,31,1.0,1.0,GOOD,1.0,Neutral,1,30.0,3.1
+S001,92,August,videos\S001\092_August.mp4,audio\S001\092_August.wav,lips\S001\092_August,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.08
+S001,93,September,videos\S001\093_September.mp4,audio\S001\093_September.wav,lips\S001\093_September,30,30,30,1.0,1.0,GOOD,1.0,Neutral,1,30.0,3.09
+S001,94,October,videos\S001\094_October.mp4,audio\S001\094_October.wav,lips\S001\094_October,31,14,14,0.452,0.452,FAILED,0.452,Focused / Serious,1,30.0,3.08
+S001,95,November,videos\S001\095_November.mp4,audio\S001\095_November.wav,lips\S001\095_November,30,30,30,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.08
+S001,96,December,videos\S001\096_December.mp4,audio\S001\096_December.wav,lips\S001\096_December,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,97,Semester,videos\S001\097_Semester.mp4,audio\S001\097_Semester.wav,lips\S001\097_Semester,30,30,30,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
+S001,98,Today,videos\S001\098_Today.mp4,audio\S001\098_Today.wav,lips\S001\098_Today,31,31,31,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.08
+S001,99,Tomorrow,videos\S001\099_Tomorrow.mp4,audio\S001\099_Tomorrow.wav,lips\S001\099_Tomorrow,30,30,30,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.1
+S001,100,Yesterday,videos\S001\100_Yesterday.mp4,audio\S001\100_Yesterday.wav,lips\S001\100_Yesterday,30,30,30,1.0,1.0,GOOD,1.0,Focused / Serious,1,30.0,3.09
